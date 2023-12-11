@@ -1,0 +1,15 @@
+,Optimizer,Regularization,BatchNorm,Maxpool,Dropout,Activation,Train Loss,,,Dev Loss,,,Epoch
+Test One :,Adam 0e-3,No,No,No,No,No,2.1,2.1,2.3,2.1,2.1,2.3,5
+Test two :,Adam 0e-3,No,No,No,No,Tanh,2.1,2,1.9,2.1,2,1.9,5
+Test Three:,Adam 0e-3,No,No,No,No,Relu,2,1.9,1.8,1.9,1.9,1.9,5
+Test Four:,SGD 0.1,No,No,No,No,Relu,2.1,2.1,2.1,2.1,2.1,2.1,5
+test five,Adagrad 0e-3,No,No,No,No,Relu,2.1,2.1,2.1,2.1,2.1,2.1,5
+Test Six(Norm),Adam 0e-3,No,No,No,No,Relu,2,1.9,1.9,1.9,1.9,1.9,5 (faster)
+,Adam 0e-3,l2 1e-8,No,No,No,Relu,2,2,1.9,1.9,1.9,1.9,5
+,Adam 0e-3,l2 1e-5,No,No,No,Relu,2,1.9,1.8,1.9,1.9,1.9,5
+,Adam 0e-3e,l2 1e-6,No,No,No,Relu,1.9,1.9,1.9,1.91,1.91,1.91,5
+,Adam 0e-3e,l2 1e-6e,No,No,No,Relu,1.9,1.8,1.6,1.9,1..9,1.8,20
+,Adam 0e-3e,l2 1e-6e,yes,No,No,Relu,70,87,90,58,61,60,20
+,Adam 0e-3e,l2 1e-4e,yes,No,No,Relu,81,84,89,62,63,62,
+,Adam 0e-3e,l2 1e-3e,yes,No,No,Relu,60,72,79,57,58,58,
+,Adam 0e-3e,l2 1e-3e,yes,No,Yes,Relu,66,79,87,58,64,64,
